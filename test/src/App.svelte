@@ -1,5 +1,8 @@
 <script>
-	let name = 'world';
+	import Mainpage from "./mainpage.svelte";
+	import Productpage from "./productpage.svelte";
 </script>
 
-<h1>Hello {name}!</h1>
+<Mainpage />
+<hr />
+<Productpage />
